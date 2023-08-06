@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "creativecommand",
+	"version": "${version}",
+	"name": "Command Blocks in Creative",
+	"description": "Adds a new tab to creative mode that allows you to get \"Hidden\" blocks without using commands",
+	"authors": [
+		"MohsenEMX"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/creativecommand/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.mohsenemx.creativecommand.CreativeCommand"
+		],
+		"client": [
+			"net.mohsenemx.creativecommand.CreativeCommandClient"
+		],
+		"fabric-datagen": [
+			"net.mohsenemx.creativecommand.CreativeCommandDataGenerator"
+		]
+	},
+	"mixins": [
+		"creativecommand.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
