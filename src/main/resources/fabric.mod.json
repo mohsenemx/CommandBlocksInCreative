@@ -8,8 +8,8 @@
 		"MohsenEMX"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/mohsenemx/CommandBlocksInCreative",
+		"sources": "https://github.com/mohsenemx/CommandBlocksInCreative"
 	},
 	"license": "MIT",
 	"icon": "assets/creativecommand/icon.png",
